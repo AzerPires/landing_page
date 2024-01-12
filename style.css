@@ -9,3 +9,97 @@ body {
     font-size: 100%;
     background: linear-gradient(rgb(57, 83, 96), rgb(177, 210, 227));
 }
+
+.cabeçalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    
+}
+
+.cabeçalho_logo{
+    height: 72px;
+}
+
+.cabeçalho_menu{
+    display: flex;
+    gap: 32px;
+    color: aliceblue;
+}
+
+.conteudo{
+    margin-bottom: 48px;
+    border-top: 0.4px solid rgb(235, 198, 130);
+}
+
+.conteudo_principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo_principal_escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.conteudo_principal_titulo{
+    font-weight: 400;
+    font-size: 64px;
+    color: aliceblue;
+}
+
+.conteudo_principal_informacao{
+    font-weight: 400;
+    font-size: 24px;
+    color: aliceblue;
+}
+
+.conteudo_botao{
+    background-color: beige;
+    width: 180px;
+    height: 60px;
+    border: none;
+    border-radius: 20px;
+}
+
+.conteudo_botao:hover{
+    background-color: rgb(57, 83, 96);
+
+}
+
+.conteudo_principal_img{
+    height: 430px;
+}
+
+.conteudo_secundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.conteudo_secundario_mensagem{
+    border-top:4px solid wheat;
+    padding-top: 48px;
+    margin-bottom: 16px;
+}
+
+.conteudo_secundario_paragrafo{
+
+}
+
+.rodape{
+    padding: 32px;
+    border-top: 04px solid wheat;
+}
+
+.rodape_info{
+    display: block;
+    margin: 0 auto;
+}
