@@ -15,17 +15,24 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    padding: 24px;
+    padding: 6px;
+    background-color: rgb(48, 28, 57);
     
 }
 
 .cabeçalho_logo{
-    height: 72px;
+    height: 60px;
+}
+
+.cabeçalho_title{
+    font-weight: 400;
+    font-size: 48px;
+    color: aliceblue;
 }
 
 .cabeçalho_menu{
     display: flex;
-    gap: 32px;
+    gap: 66px;
     color: aliceblue;
 }
 
@@ -88,18 +95,22 @@ body {
     border-top:4px solid wheat;
     padding-top: 48px;
     margin-bottom: 16px;
+    color: aliceblue;
 }
 
 .conteudo_secundario_paragrafo{
-
+    color: aliceblue;
 }
 
 .rodape{
     padding: 32px;
     border-top: 04px solid wheat;
+    background-color: rgb(48, 28, 57);
 }
 
 .rodape_info{
     display: block;
     margin: 0 auto;
+    color: aliceblue;
+    text-align: center;
 }
