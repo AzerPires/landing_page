@@ -28,6 +28,7 @@ body {
     font-weight: 400;
     font-size: 48px;
     color: aliceblue;
+    text-shadow: 0 0 20px #00fffb, 0 0 40px #0081bc;
 }
 
 .cabeçalho_menu{
@@ -72,6 +73,7 @@ body {
     height: 60px;
     border: none;
     border-radius: 20px;
+    cursor: pointer;
 }
 
 .conteudo_botao:hover{
