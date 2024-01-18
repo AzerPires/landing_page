@@ -17,11 +17,10 @@ body {
     justify-content: space-around;
     padding: 6px;
     background-color: rgb(48, 28, 57);
-    
 }
 
 .cabeçalho_logo{
-    height: 60px;
+    height: 80px;
 }
 
 .cabeçalho_title{
