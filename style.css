@@ -116,3 +116,42 @@ body {
     color: aliceblue;
     text-align: center;
 }
+
+@media screen and (max-width: 768px) {
+    .cabeçalho {
+        display: block;
+        background-image: none;
+    }
+    .conteudo_principal {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .conteudo_principal_escrito {
+        gap: 16px;
+    }
+
+    .conteudo_principal_titulo {
+        font-size: 36px;
+    }
+
+    .conteudo_principal_informacao {
+        font-size: 16px;
+    }
+
+    .conteudo_botao {
+        width: 140px;
+        height: 40px;
+        font-size: 14px;
+    }
+
+    .conteudo_principal_img {
+        height: auto;
+        max-width: 100%;
+    }
+
+    .conteudo_secundario {
+        text-align: center;
+        margin-top: 24px;
+    }
+}
